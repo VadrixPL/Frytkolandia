@@ -52,7 +52,9 @@ Multiple images will automatically shuffle between them*/
 var l_bgImages = [
 	"backgrounds/images/loading1.jpg",
 	"backgrounds/images/loading2.jpg",
-	"backgrounds/images/loading3.jpg"
+	"backgrounds/images/loading3.jpg",
+	"backgrounds/images/loading4.jpg",
+	"backgrounds/images/loading5.jpg"
 ];
 
 /*Random background images order?*/
