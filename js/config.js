@@ -52,9 +52,7 @@ Multiple images will automatically shuffle between them*/
 var l_bgImages = [
 	"backgrounds/images/loading1.jpg",
 	"backgrounds/images/loading2.jpg",
-	"backgrounds/images/loading3.jpg",
-	"backgrounds/images/loading4.jpg",
-	"backgrounds/images/loading5.jpg"
+	"backgrounds/images/loading3.jpg"
 ];
 
 /*Random background images order?*/
@@ -88,8 +86,8 @@ var l_musicDisplay = true;
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
 	{ogg: "songs/StarWarsSong.mp3", name: "StarWarsSong"},
-	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
-	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
+	{youtube: "j0PA0PX7lKo", name: "StarWarsMusic"},
+	{youtube: "yHZfHPhNjXo", name: "StarWarsMusic"},
 	{youtube: "-7VeTkLKdDw", name: "StarWars Music"}
 ];
 
@@ -98,7 +96,7 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 25;
+var l_musicVolume = 5;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
@@ -107,7 +105,7 @@ var l_messagesEnabled = true;
 var l_messages = [
 "Witamy na Serwerze Frytkolandia",
 "Mamy nadzieję że będziesz się dobrze bawił!",
-"Rób albo nie rób, nie ma próbwania"
+"Rób albo nie rób, nie ma próbowania"
 ];
 
 /*Random message order?*/
