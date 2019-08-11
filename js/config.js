@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/logo.png";
+var l_serverImage = "images/footage.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "sleekLoad 2";
+var l_serverName = "Frytkolandia";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -50,9 +50,11 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/loading1.jpg",
+	"backgrounds/images/loading2.jpg",
+	"backgrounds/images/loading3.jpg",
+	"backgrounds/images/loading4.jpg",
+	"backgrounds/images/loading5.jpg"
 ];
 
 /*Random background images order?*/
@@ -85,10 +87,10 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
+	{ogg: "songs/StarWarsSong.mp3", name: "StarWarsSong"},
 	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
 	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
-	{youtube: "-7VeTkLKdDw", name: "Departure"}
+	{youtube: "-7VeTkLKdDw", name: "StarWars Music"}
 ];
 
 /*Random music order?*/
@@ -103,9 +105,9 @@ var l_messagesEnabled = true;
 
 /*Enter your custom messages below*/
 var l_messages = [
-"Enjoy the server",
-"Thanks for joining us!",
-"Did you know these backgrounds and songs are from Touhou?"
+"Witamy na Serwerze Frytkolandia",
+"Mamy nadzieję że będziesz się dobrze bawił!",
+"Rób albo nie rób, nie ma próbwania"
 ];
 
 /*Random message order?*/
